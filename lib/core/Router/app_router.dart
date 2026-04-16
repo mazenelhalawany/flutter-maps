@@ -30,7 +30,7 @@ class AppRouter {
         );
         final routeDioClient = DioClient(
           baseUrl: "https://router.project-osrm.org/",
-        );
+        ); //di
         return MaterialPageRoute(
           builder: (_) => BlocProvider(
             create: (_) => MapCubit(
