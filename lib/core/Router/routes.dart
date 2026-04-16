@@ -4,4 +4,6 @@ class AppRoutes {
   static const register = '/register';
   static const mapview = '/map_view';
   static const savedplaces = '/saved_places';
+  static const conflict = 'conflict';
+  
 }
