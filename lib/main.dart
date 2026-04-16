@@ -15,6 +15,7 @@ import 'firebase_options.dart';
 late Widget initialRoute;
 //dev first feature
 //test source tree
+//another person
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
