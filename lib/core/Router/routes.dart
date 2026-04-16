@@ -5,5 +5,6 @@ class AppRoutes {
   static const mapview = '/map_view';
   static const savedplaces = '/saved_places';
   static const conflict = 'conflict';
-  
+
+  static const avoidcoflict = '/conflictavoid';
 }
