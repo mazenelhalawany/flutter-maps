@@ -3,4 +3,5 @@ class AppRoutes {
   static const login = '/login';
   static const register = '/register';
   static const mapview = '/map_view';
+  static const savedplaces = '/saved_places';
 }
