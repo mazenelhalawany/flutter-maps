@@ -5,8 +5,6 @@ import '../services/dio.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:latlong2/latlong.dart';
 
-// صفحاتك
-
 import '../features/home/cubit/placescubit.dart';
 import '../features/home/cubit/map_cubit.dart';
 import '../features/home/data/repo/sqlrepoimplement.dart';
@@ -37,9 +35,7 @@ class AppRouter {
           builder: (_) => BlocProvider(
             create: (_) => MapCubit(
               PlacesRepoImpl(
-                searchApiService: ApiService(
-                  searchDioClient.dio,
-                ), // عبيهم بالقيم الصح
+                searchApiService: ApiService(searchDioClient.dio),
                 routeApiService: ApiService(routeDioClient.dio),
               ),
             ),
